@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaGer.id • Jasa Suruhan Serba Bisa Tangerang — Cepat, Aman, Terpercaya</title>
+  <meta name="description" content="MaGer.id adalah layanan jasa suruhan serba bisa untuk wilayah Tangerang dan sekitarnya. Kami siap bantu urusan kecil maupun besar — dari belanja, antar, urus dokumen, hingga tugas online. Cukup suruh, kami yang gerak!">
+  <meta name="keywords" content="MaGer.id, jasa suruhan, Tangerang, jasa antar, jasa titip, jasa beli, jasa bantu, jasa online">
+  <meta property="og:title" content="MaGer.id • Kamu mager? Biar kami yang gerak!" />
+  <meta property="og:description" content="Layanan jasa suruhan serba bisa di Tangerang dan sekitarnya. Cepat, aman, dan terpercaya." />
+  <meta property="og:image" content="favicon.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <style>
+    :root {
+      --tosca: #00b37d;
+      --light-bg: linear-gradient(180deg, #eafff8 0%, #ffffff 100%);
+      --dark-bg: #0b1713;
+      --text-light: #ffffff;
+      --text-dark: #1a1a1a;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; scroll-behavior:smooth; }
+    body {
+      background: var(--light-bg);
+      color: var(--text-dark);
+      transition: background 0.5s, color 0.5s;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: var(--dark-bg); color: var(--text-light); }
+    }
+
+    header {
+      text-align:center;
+      padding:4rem 2rem;
+      background: linear-gradient(135deg, var(--tosca), #00e09d);
+      color:white;
+      animation: fadeIn 1.5s ease;
+    }
+    header h1 { font-size:2.5rem; font-weight:700; }
+    header p { font-size:1.2rem; margin-top:0.5rem; }
+
+    section {
+      padding:3rem 2rem;
+      max-width:1000px;
+      margin:auto;
+      text-align:center;
+    }
+    h2 { color:var(--tosca); margin-bottom:1.5rem; }
+
+    .steps, .services, .testimonials {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:1.5rem;
+      margin-top:1.5rem;
+    }
+    .card {
+      background:white;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      padding:2rem;
+      transition:transform 0.3s, box-shadow 0.3s;
+      animation: fadeUp 1s ease;
+    }
+    .card:hover { transform:translateY(-5px); box-shadow:0 6px 15px rgba(0,0,0,0.15); }
+    @media (prefers-color-scheme: dark) {
+      .card { background:#16221d; color:#e6e6e6; }
+    }
+
+    footer {
+      background: var(--tosca);
+      color:white;
+      text-align:center;
+      padding:2rem 1rem;
+      margin-top:3rem;
+    }
+    footer a { color:white; text-decoration:none; font-weight:500; }
+    .copyright { font-size:0.9rem; opacity:0.8; margin-top:1rem; }
+
+    .wa-btn {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      border:none;
+      border-radius:50px;
+      padding:0.9rem 1.4rem;
+      font-weight:600;
+      box-shadow:0 4px 10px rgba(0,0,0,0.2);
+      cursor:pointer;
+      transition:background 0.3s;
+      z-index:100;
+    }
+    .wa-btn:hover { background:#1ebc5c; }
+
+    @keyframes fadeIn { from{opacity:0; transform:translateY(-10px);} to{opacity:1; transform:translateY(0);} }
+    @keyframes fadeUp { from{opacity:0; transform:translateY(20px);} to{opacity:1; transform:translateY(0);} }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MaGer.id</h1>
+  <p>Kamu mager? Biar kami yang gerak!</p>
+</header>
+
+<section>
+  <h2>Cara Kerja MaGer.id</h2>
+  <div class="steps">
+    <div class="card">
+      <h3>1️⃣ Chat Kami</h3>
+      <p>Hubungi kami via WhatsApp dan ceritakan apa yang perlu dibantu.</p>
+    </div>
+    <div class="card">
+      <h3>2️⃣ Kami Proses</h3>
+      <p>Tim kami akan segera mengatur dan mengerjakan permintaanmu.</p>
+    </div>
+    <div class="card">
+      <h3>3️⃣ Selesai!</h3>
+      <p>Kamu santai, kami yang gerak. Semua beres tanpa ribet.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Layanan Kami</h2>
+  <div class="services">
+    <div class="card"><h3>🛒 Belanjain Kamu</h3><p>Titip beli makanan, barang, atau kebutuhan harian.</p></div>
+    <div class="card"><h3>🚗 Antar & Jemput Barang</h3><p>Kirim atau ambil barangmu cepat dan aman.</p></div>
+    <div class="card"><h3>📄 Urus Dokumen</h3><p>Bantu isi, kirim, atau ambil dokumen penting.</p></div>
+    <div class="card"><h3>💻 Jasa Online</h3><p>Bantu daftar, isi data, atau kirim file secara online.</p></div>
+    <div class="card"><h3>🏠 Bantuan Rumah</h3><p>Pekerjaan ringan seperti beresin barang atau bersih-bersih.</p></div>
+    <div class="card"><h3>🤝 Custom Request</h3><p>Ada kebutuhan unik? Tinggal bilang, kami bantu!</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Kata Mereka</h2>
+  <div class="testimonials">
+    <div class="card"><p>"Butuh kirim barang cepat, MaGer.id bantu banget! Gak perlu keluar rumah."</p><strong>- Rani, Cipondoh</strong></div>
+    <div class="card"><p>"Baru pertama nyoba, ternyata responsnya cepat banget."</p><strong>- Andi, Alam Sutera</strong></div>
+    <div class="card"><p>"Urus dokumen kantor dibantu dari rumah, mantap banget."</p><strong>- Fajar, BSD</strong></div>
+  </div>
+</section>
+
+<footer>
+  <p>📍 Tangerang dan sekitarnya</p>
+  <p>📱 <a href="https://instagram.com/MaGer.id">@MaGer.id</a></p>
+  <div class="copyright">© 2025 MaGer.id — All rights reserved.</div>
+</footer>
+
+<button class="wa-btn" onclick="window.open('https://wa.me/6285668783545?text=Halo%20MaGer.id,%20saya%20mau%20pesan%20jasa%20dong!', '_blank')">💬 Chat via WhatsApp</button>
+
+</body>
+</html>
